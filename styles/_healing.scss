@@ -1,0 +1,40 @@
+.healing{
+    &--title{
+        text-align: center;
+        font-family: 'MetroBold',sans-serif;
+        font-weight: 700;
+        font-size: 4rem;
+        margin: 5rem 0 10rem;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    &--imgcontainer{
+        width: 32%;
+        background-color:rgba(175,181,220,0.15);
+        margin-bottom: 2rem;
+        img{
+            width: 100%;
+            &:hover{
+                transform: translateY(-20px);
+                transition: all .3s ease-in-out;
+            }
+        }
+
+    }
+    &--text{
+        text-align: center;
+        text-align: center;
+        font-family: 'MetroBold',sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    @media screen and (max-width:768px){
+        &--imgcontainer{
+            width: 48%;
+        }
+    }
+}

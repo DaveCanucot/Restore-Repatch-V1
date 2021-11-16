@@ -1,0 +1,72 @@
+.hero{
+    background-image: url(/assets/img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__container{
+        position: relative;
+        max-width: 1640px;
+        padding: 60px 20px;
+        margin:0 auto;
+        .absolute{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__txt{
+        font-family: 'MetroBold',sans-serif;
+        font-size: 3rem;
+        color: #fff;
+        font-weight: 700;
+        padding-bottom: 2.5rem;
+    }
+    &__txtsub{
+        font-family: 'MetroBold',sans-serif;
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 700;
+        padding-bottom: 2rem;
+    }
+    &__parag{
+        width: 35%;
+        font-size: 1.5rem;
+        color: #fff;
+        line-height: 1.5;
+    }
+    &__imgcontainer{
+        padding: 2.5rem 2rem;
+        .crcl{
+            padding: 0 6rem;
+        }
+    }
+    &__imgsubtxt{
+                font-family: 'MetroBold',sans-serif;
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 700;
+    }
+    @media screen and (max-width:768px) {
+        &__container{
+            .absolute{
+                top: 15%;
+            }
+        }
+        &__txt{
+            padding-top: 10rem;
+        }
+        &__parag{
+            width: unset;
+        }
+        &__imgcontainer{
+            padding: 0.5rem;
+            .crcl{
+                padding: 0 3rem;
+            }
+        }
+        &__imgsubtxt{
+            font-size: 1.5rem;
+        }
+    }
+
+}

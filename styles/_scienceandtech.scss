@@ -1,0 +1,50 @@
+.scienceandtech{
+    &__container{
+        width: 100%;
+        margin: 0 auto;
+        &--left{
+            width: 60%;
+            img{
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+        &--right{
+            width: 40%;
+            padding-top: 10rem;
+            .title{
+                font-family: 'MetroBold',sans-serif;
+                font-weight: 700;
+                color: #000;
+                font-size: 3rem;
+                line-height: 1.5;
+            }
+            .subtitle{
+                font-family: 'MetroThin',sans-serif;
+                font-size: 1.5rem;
+                color: #000;
+                line-height: 1.5;
+                padding-right: 14.5rem;
+            }
+        }
+    }
+    @media screen and (max-width:768px) {
+        &__container{
+            flex-direction: column !important;
+            padding-top: 3rem;;
+            &--left{
+                width: 100%;
+            }
+            &--right{
+                padding-top: unset;
+                width: 100%;
+                .title{
+                    text-align: center;
+                }
+                .subtitle{
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+}
