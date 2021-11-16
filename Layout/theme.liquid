@@ -1,0 +1,85 @@
+<html>
+<head>
+  	{{ content_for_header }}
+  	<title>{{ shop.name }} - {{ page_title }}</title>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  	<title>untitled</title>
+	{{ 'style.css'  | asset_url | stylesheet_tag }}
+	{{ 'slick.css'  | asset_url | stylesheet_tag }}
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="header">
+	  <h1>{{ shop.name }}</h1>
+		<div id="top-nav">
+			<div class="menu"> 
+			<ul class="menu">
+		    	{% for link in linklists.main-menu.links %}
+			      <li class="menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+			    {% endfor %}
+			  </ul>
+			<div>
+		</div>
+		<div id="cart">
+			<h3>Shopping Cart</h3>
+			<p class="cart-count">
+				{% if cart.item_count == 0 %}
+					Your cart is currently empty
+				{% else %}
+					{{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }} <span>-</span> Total: {{cart.total_price | money_with_currency }} <span>-</span> <a href="/cart">View Cart</a>
+				{% endif %}			
+			</p>
+		</div>
+
+    </div><!-- #header -->
+	
+    <div class="content">
+      {{ content_for_layout }}
+    </div><!-- .content -->
+	&nbsp;
+  </div><!-- #wrapper -->
+&nbsp;
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+        $(document).ready(function(){
+        $('.my-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplaySpeed: 2000,
+            arrows: true,
+            prevArrow:"<img class='a-left control-c prev slick-prev' src='/assets/img/arrow-left.svg'>",
+            nextArrow:"<img class='a-right control-c next slick-next' src='/assets/img/arrow-right.svg'>",
+            responsive:[
+                {
+                    breakpoint:768,
+                    settings:{
+                        slidesToShow:1,
+                        slidesToScroll:1
+                    }
+                }
+            ]
+        });
+        });
+    AOS.init();
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+        } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+    });
+    }
+
+  </script>
+</body>
+</html>
