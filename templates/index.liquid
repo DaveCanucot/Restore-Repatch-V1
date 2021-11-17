@@ -1,4 +1,6 @@
-        <section class="hero">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <section class="hero">
             <div class="hero__container ">
             {{ 'absolute.png' | asset_url | img_tag: 'The Soap Store', 'absolute'}}
                 <h2 class="hero__txt"  data-aos="fade-up" data-aos-offset="50" data-aos-delay="50" data-aos-duration="1000">
@@ -288,3 +290,41 @@
                 </div>
             </div>
         </section>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        $('.my-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplaySpeed: 2000,
+            arrows: true,
+            prevArrow:"<img class='a-left control-c prev slick-prev' src='https://cdn.shopify.com/s/files/1/2625/2982/files/arrow-left.svg?v=1637109366'>",
+            nextArrow:"<img class='a-right control-c next slick-next' src='https://cdn.shopify.com/s/files/1/2625/2982/files/arrow-right.svg?v=1637109366'>",
+            responsive:[
+                {
+                    breakpoint:768,
+                    settings:{
+                        slidesToShow:1,
+                        slidesToScroll:1
+                    }
+                }
+            ]
+        });
+        });
+    AOS.init();
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+        } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+    });
+    }
