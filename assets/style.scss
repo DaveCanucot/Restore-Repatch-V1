@@ -1,0 +1,51 @@
+@import "reset";
+@import "hero";
+@import "scienceandtech";
+@import "healing";
+@import "technology";
+@import "support";
+@import "faq";
+@import "testimonial";
+@font-face{
+    font-family: "MetroThin";
+    src:url(/fonts/Metropolis-Regular.otf)format("otf");
+}
+@font-face{
+    font-family: "MetroBold";
+    src: url(/fonts/Metropolis-Black.otf)format("otf");
+    font-weight: 700;
+}
+@font-face{
+    font-family: "MetroSemiB";
+    src: url(./fonts/Metropolis-SemiBold.otf);
+    font-weight: 600;
+}
+body{
+    font-family: 'MetroThin',sans-serif;
+    color: #083D5D;
+    overflow-x: hidden;
+}
+section{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+a{
+    text-decoration: none;
+    color: #083D5D;
+}
+p, h1,h2,h3,h4,h5,h6,button{
+    color: #083D5D;
+}
