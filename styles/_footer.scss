@@ -1,0 +1,75 @@
+.footer{
+    background-color: #1e3c5c; 
+    &__container{
+        display: flex;
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 5rem 20px;
+        justify-content: space-between;
+        &--left{
+            display: flex;
+            flex-direction: column;
+            .links{
+                color: #fff;
+                padding-bottom: 1.5rem;
+            }
+        }
+        &--middle{
+            p{
+                color: #fff;
+                padding-bottom: 1rem;
+                @media screen and (max-width:768px) {
+                    padding-left: 1.5rem;
+                }
+            }
+            display: flex;
+            flex-direction: column;
+            .socialcontainer{
+                display: flex;
+                flex-direction: column;
+                svg{
+                    padding-bottom: 0.5rem;
+                }
+                @media screen and (max-width:768px) {
+                    flex-direction: row;
+                }
+            }
+
+        }
+        &--right{
+            display: flex;
+            flex-direction: column;
+            .substext{
+                color: #fff;
+                font-weight: 600;
+                font-size: 1.25rem;
+                padding-bottom: 1rem;
+            }
+            span{
+                color: #fff;
+                font-size: 0.8rem;
+                padding-bottom: 1.3rem;
+            }
+            .form-container{
+                background-color: #fff;
+                .inputemail{
+                    width: 75%;
+                    font-size: 0.8rem;
+                    padding: .5rem;
+                    border: 0;
+                }
+                .submitbtn{
+                    padding: 0.63rem;
+                    margin-left: -2px;
+                    background-color: rgba(73, 81,216, 0.41);
+                    border: 0;
+                    color: #fff;
+                }
+            }
+        }
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

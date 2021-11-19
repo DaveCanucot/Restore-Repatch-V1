@@ -49,7 +49,7 @@ table {
 }
 
 .hero {
-  background-image: url(https://cdn.shopify.com/s/files/1/0610/4583/3977/files/Mask_Group_27.png?v=1636940389);
+  background-image: url(/assets/img/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -406,7 +406,7 @@ table {
 
 .faq__container .accordion::before {
   content: '';
-  background-image: url(https://cdn.shopify.com/s/files/1/2625/2982/files/Addition-01.svg?v=1637109366);
+  background-image: url(/assets/img/Addition-01.svg);
   float: left;
   padding-right: 15px;
   height: 43px;
@@ -416,7 +416,7 @@ table {
 
 .faq__container .active::before {
   content: "";
-  background-image: url(https://cdn.shopify.com/s/files/1/2625/2982/files/Substraction.svg?v=1637109366);
+  background-image: url(/assets/img/Substraction.svg);
   height: 43px;
   width: 43px;
   background-repeat: no-repeat;
@@ -513,6 +513,335 @@ table {
   padding: 0 3rem;
 }
 
+header {
+  max-width: 1640px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* Hiding the main navigation until it is clicked */
+  /* Hiding the checkbox */
+  /* When the checkbox is ticked, the main navigation will display */
+  /* Desktop Version */
+}
+
+header .innercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+  header .innercontainer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+header .navigation-menu {
+  padding: 1rem 0;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+header .logo {
+  width: 150px;
+  height: auto;
+  padding-left: 20px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .main-navigation {
+  display: none;
+  padding-left: 0px;
+}
+
+header .nav-menu {
+  display: none;
+}
+
+header .main-navigation li {
+  list-style-type: none;
+  margin: 15px auto;
+  text-align: center;
+  padding-right: 2.5rem;
+}
+
+header .main-navigation li:nth-child(5) {
+  padding-right: unset;
+}
+
+header .main-navigation a {
+  padding: 5px 7px;
+  margin: 0px 2px 0px 2px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'MetroBold',sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+header .main-navigation a:hover {
+  color: black;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+header .hamburger-icon {
+  margin: 5px 20px 5px 5px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #947aff;
+}
+
+header #menu-toggle1 {
+  display: none;
+}
+
+header #menu-toggle1:checked + .nav-menu {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+}
+
+header .nav-menu-links {
+  padding: 1rem 0;
+  border-bottom: 1px solid;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+header .shopnowbtn1 {
+  background-color: rgba(73, 81, 216, 0.21);
+  padding: 1rem 3rem;
+  border-radius: 25px;
+  width: 100px;
+  margin: 1rem 0;
+}
+
+header .shopnowbtn1 p {
+  color: #fff;
+}
+
+@media screen and (min-width: 1050px) {
+  header {
+    /* Hiding the hamburger icon on larger screens */
+    /* Ensuring that if the hamburger menu is active but
+    the screen becomes larger, the display will 
+    change to display items in a row instead of a column*/
+  }
+  header .navigation-menu {
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  header .main-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  header .nav-menu {
+    display: none !important;
+  }
+  header .main-navigation a {
+    padding: 15px 17px;
+  }
+  header .hamburger-icon {
+    display: none;
+  }
+  header #menu-toggle:checked + .main-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+header .shopnowbtn {
+  background-color: rgba(73, 81, 216, 0.21);
+  padding: 1rem 3rem;
+  border-radius: 25px;
+}
+
+header .shopnowbtn p {
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1050px) {
+  header .shopnowbtn {
+    display: none;
+  }
+}
+
+.footer {
+  background-color: #1e3c5c;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 5rem 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__container--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__container--left .links {
+  color: #fff;
+  padding-bottom: 1.5rem;
+}
+
+.footer__container--middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__container--middle p {
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container--middle p {
+    padding-left: 1.5rem;
+  }
+}
+
+.footer__container--middle .socialcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__container--middle .socialcontainer svg {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container--middle .socialcontainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.footer__container--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__container--right .substext {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.footer__container--right span {
+  color: #fff;
+  font-size: 0.8rem;
+  padding-bottom: 1.3rem;
+}
+
+.footer__container--right .form-container {
+  background-color: #fff;
+}
+
+.footer__container--right .form-container .inputemail {
+  width: 75%;
+  font-size: 0.8rem;
+  padding: .5rem;
+  border: 0;
+}
+
+.footer__container--right .form-container .submitbtn {
+  padding: 0.63rem;
+  margin-left: -2px;
+  background-color: rgba(73, 81, 216, 0.41);
+  border: 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @font-face {
   font-family: "MetroThin";
   src: url(/fonts/Metropolis-Regular.otf) format("otf");
@@ -577,5 +906,9 @@ a {
 
 p, h1, h2, h3, h4, h5, h6, button {
   color: #083D5D;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=style.css.map */
