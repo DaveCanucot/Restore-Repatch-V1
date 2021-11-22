@@ -838,6 +838,10 @@ header .shopnowbtn p {
   color: #fff;
   margin-top: 5rem;
 }
+.footer__container--right .copyright a {
+  color: #fff;
+}
+
 
 @media screen and (max-width: 768px) {
   .footer__container {
