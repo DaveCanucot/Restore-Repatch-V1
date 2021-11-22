@@ -834,6 +834,10 @@ header .shopnowbtn p {
   border: 0;
   color: #fff;
 }
+.footer__container--right .copyright{
+  color: #fff;
+  margin-top: 5rem;
+}
 
 @media screen and (max-width: 768px) {
   .footer__container {
@@ -844,6 +848,9 @@ header .shopnowbtn p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .footer__container--right .copyright{
+    margin-top: 2.5rem;
   }
 }
 
