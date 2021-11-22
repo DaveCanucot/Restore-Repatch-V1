@@ -928,3 +928,26 @@ html {
   scroll-behavior: smooth;
 }
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width:1366px){
+  .technology__container--left{
+    padding: 1rem 0;
+  }
+  .technology__container--left p{
+    padding: 0 2rem 2rem;
+  }
+  .technology__container--left .title {
+    padding: 2rem 0 2rem 10rem;
+  }
+}
+@media screen and (max-width:375px){
+  .healing--text{
+    font-size: 1.2rem;
+  }
+  .testimonial__container--item .message {
+    padding: 1rem;
+  }
+  .testimonial__container--item .name {
+    padding: 0 1rem;
+  }
+}
