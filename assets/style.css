@@ -512,9 +512,6 @@ table {
 }
 
 header {
-  top: 0;
-  position: sticky;
-  position: -webkit-sticky;
   max-width: 1640px;
   margin: 0 auto;
   display: -webkit-box;
@@ -528,6 +525,12 @@ header {
   /* Hiding the checkbox */
   /* When the checkbox is ticked, the main navigation will display */
   /* Desktop Version */
+}
+.shopify-section-header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
 }
 
 header .innercontainer {
