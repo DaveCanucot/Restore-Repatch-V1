@@ -512,7 +512,7 @@ table {
 }
 
 header {
-  position: static;
+  position: sticky;
   position: -webkit-sticky;
   max-width: 1640px;
   margin: 0 auto;
