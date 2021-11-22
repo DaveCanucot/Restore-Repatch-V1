@@ -406,7 +406,7 @@ table {
 
 .faq__container .accordion::before {
   content: '';
-  background-image: url(/assets/img/Addition-01.svg);
+  background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Addition-01.svg?v=1637550382);
   float: left;
   padding-right: 15px;
   height: 43px;
@@ -416,7 +416,7 @@ table {
 
 .faq__container .active::before {
   content: "";
-  background-image: url(/assets/img/Substraction.svg);
+  background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Substraction.svg?v=1637550382);
   height: 43px;
   width: 43px;
   background-repeat: no-repeat;
