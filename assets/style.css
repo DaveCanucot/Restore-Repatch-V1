@@ -151,7 +151,6 @@ table {
 .scienceandtech__container--right .title {
   font-family: 'MetroBold',sans-serif;
   font-weight: 700;
-  color: #000;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -159,7 +158,6 @@ table {
 .scienceandtech__container--right .subtitle {
   font-family: 'MetroThin',sans-serif;
   font-size: 1.5rem;
-  color: #000;
   line-height: 1.5;
   padding-right: 14.5rem;
 }
@@ -261,7 +259,7 @@ table {
 .technology__container--left p {
   padding: 0 10rem 5rem;
   line-height: 1.5;
-  font-family: 'Metrothin';
+  font-family: 'MetroBold',sans-serif;
   font-size: 1.5rem;
 }
 
@@ -514,6 +512,8 @@ table {
 }
 
 header {
+  position: static;
+  position: -webkit-sticky;
   max-width: 1640px;
   margin: 0 auto;
   display: -webkit-box;
