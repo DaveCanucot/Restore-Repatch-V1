@@ -526,11 +526,12 @@ header {
   /* When the checkbox is ticked, the main navigation will display */
   /* Desktop Version */
 }
-.shopify-section-header {
+#shopify-section-header {
   background-color: #fff;
   position: sticky;
   top: 0;
   position: -webkit-sticky;
+  z-index: 1000;
 }
 
 header .innercontainer {
