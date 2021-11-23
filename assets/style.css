@@ -915,7 +915,11 @@ html {
     padding: 0 2rem 2rem;
   }
   .technology__container--left .title {
-    padding: 2rem 0 2rem 10rem;
+    padding: 2rem 0 2rem 2rem;
+  }
+  .technology__container--left .subtitle{
+    padding: 2rem 0 2rem 2rem;
+
   }
 }
 @media screen and (max-width: 768px) {
