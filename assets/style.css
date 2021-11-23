@@ -944,10 +944,13 @@ html {
     padding: unset;
   }
   .technology__container--left p {
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
   .technology__container--right {
     width: 100%;
+  }
+  .faq__container .accordion {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -956,7 +959,7 @@ html {
   }
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:400px){
   .healing--text{
     font-size: 1.2rem;
   }
