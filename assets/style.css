@@ -52,6 +52,7 @@ table {
   background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/hero.png?v=1637292577);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero__container {
@@ -383,6 +384,8 @@ table {
   height: 43px;
   width: 43px;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
 }
 
 .faq__container .active::before {
@@ -391,6 +394,8 @@ table {
   height: 43px;
   width: 43px;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
 }
 
 .faq__container .panel {
@@ -939,6 +944,11 @@ html {
   }
   .technology__container--right {
     width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .testimonial--happystarcustomer .stars {
+    width: 300px;
   }
 }
 
