@@ -798,9 +798,6 @@ header .shopnowbtn p {
   padding-bottom: 1.3rem;
 }
 
-.footer__container--right .form-container {
-  background-color: #fff;
-}
 
 .footer__container--right .form-container .inputemail {
   width: 75%;
@@ -814,6 +811,7 @@ header .shopnowbtn p {
   background-color: rgba(73, 81, 216, 0.41);
   border: 0;
   color: #fff;
+  margin-left: -3px;
 }
 .footer__container--right .copyright{
   color: #fff;
