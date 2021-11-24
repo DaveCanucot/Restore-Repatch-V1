@@ -275,6 +275,7 @@ table {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  height: 100%;
 }
 
 
@@ -810,7 +811,6 @@ header .shopnowbtn p {
 
 .footer__container--right .form-container .submitbtn {
   padding: 0.63rem;
-  margin-left: -2px;
   background-color: rgba(73, 81, 216, 0.41);
   border: 0;
   color: #fff;
