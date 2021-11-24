@@ -962,6 +962,12 @@ html {
   }
 }
 
+@media screen and (max-width:458px) {
+  .footer__container--right .form-container .inputemail {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width:400px){
   .healing--text{
     font-size: 1.2rem;
