@@ -963,6 +963,7 @@ html {
   .hero__txt, .hero__txtsub, .hero__imgsubtxt{
     text-align: center;
   }
+
 }
 @media screen and (max-width: 500px) {
   .testimonial--happystarcustomer .stars {
@@ -974,6 +975,9 @@ html {
   .hero{
     background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_Mobile_01.png?v=1638137905);
     background-position-y:0px ;
+  }
+  .hero__txt{
+    padding-top: 22rem;
   }
 }
 
