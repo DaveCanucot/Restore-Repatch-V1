@@ -908,6 +908,10 @@ html {
 }
 /*# sourceMappingURL=style.css.map */
 
+.mobilebr{
+  display: none;
+}
+
 @media screen and (max-width:1366px){
   .technology__container--left{
     padding: 1rem 0;
@@ -952,6 +956,9 @@ html {
   }
   .faq__container .accordion {
     font-size: 1rem;
+  }
+  .mobilebr{
+    display: block;
   }
 }
 @media screen and (max-width: 500px) {
