@@ -979,6 +979,9 @@ html {
   .hero__txt{
     padding-top: 22rem;
   }
+  .footer__container{
+    padding: 2rem 20px;
+  }
 }
 
 @media screen and (max-width:458px) {
