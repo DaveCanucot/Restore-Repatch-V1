@@ -462,6 +462,7 @@ table {
   max-width: 1640px;
   padding: 0 20px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .testimonial__container--item {
