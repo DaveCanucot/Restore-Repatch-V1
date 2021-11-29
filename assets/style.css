@@ -978,6 +978,10 @@ html {
     font-size: 1.5rem !important;
   }
 
+  .technology__container--left{
+    padding: 2rem 0;
+  }
+
 }
 @media screen and (max-width: 500px) {
   .testimonial--happystarcustomer .stars {
