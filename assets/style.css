@@ -1007,6 +1007,9 @@ html {
   .hero__imgcontainer .crcl {
     padding: 0 1rem;
   }
+  .testimonial__container--item .message, .testimonial__container--item .name {
+    padding: 0 1rem;
+  }
 }
 
 @media screen and (max-width:400px){
