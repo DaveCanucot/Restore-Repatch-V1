@@ -180,6 +180,7 @@ table {
   }
   .scienceandtech__container--right .title {
     text-align: center;
+    list-style: 1.3;
   }
   .scienceandtech__container--right .subtitle {
     padding: 0 20px;
