@@ -992,6 +992,9 @@ html {
   .healing--text{
     font-size: 1.5rem;
   }
+  .hero__imgcontainer .crcl {
+    padding: 0 1rem;
+  }
 }
 
 @media screen and (max-width:400px){
