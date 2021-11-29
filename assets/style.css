@@ -989,6 +989,9 @@ html {
   .footer__container--right .form-container .inputemail {
     width: 70%;
   }
+  .healing--text{
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width:400px){
@@ -1006,5 +1009,11 @@ html {
   }
   .testimonial{
     padding-bottom: 5rem;
+  }
+  .hero__txt{
+    padding-top: 16rem;
+  }
+  .hero__imgcontainer .crcl {
+    padding: 0 1rem;
   }
 }
