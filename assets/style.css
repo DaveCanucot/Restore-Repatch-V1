@@ -964,11 +964,8 @@ html {
   .faq__container .accordion {
     font-size: 1rem;
   }
-  .mobilebr{
-    display: block;
-  }
   .hero__txt, .hero__txtsub, .hero__imgsubtxt{
-    text-align: center;
+    text-align: left;
   }
   .hero__imgsubtxt{
     padding-top: 1rem;
@@ -999,9 +996,7 @@ html {
   .hero__container .absolute{
     display: none;
   }
-  .hero__imgcontainer{
-    justify-content: center;
-  }
+
 
 }
 @media screen and (max-width: 500px) {
@@ -1020,6 +1015,15 @@ html {
   }
   .footer__container{
     padding: 2rem 20px;
+  }
+  .hero__imgcontainer{
+    justify-content: center;
+  }
+  .hero__txt, .hero__txtsub, .hero__imgsubtxt{
+    text-align: center;
+  }
+  .mobilebr{
+    display: block;
   }
 }
 
