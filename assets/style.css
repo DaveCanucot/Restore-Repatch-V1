@@ -429,6 +429,9 @@ table {
   font-size: 1.25rem;
   padding: 0 2rem;
 }
+.faq--footer a{
+  font-weight: 700;
+}
 
 .testimonial {
   background-color: rgba(73, 81, 216, 0.21);
