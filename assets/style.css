@@ -745,7 +745,7 @@ header .shopnowbtn p {
 
 .footer__container--middle p {
   color: #fff;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -774,6 +774,7 @@ header .shopnowbtn p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -835,7 +836,7 @@ header .shopnowbtn p {
             align-items: center;
   }
   .footer__container--right .copyright{
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 }
 
