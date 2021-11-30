@@ -953,7 +953,7 @@ html {
   }
   .technology__container--left .subtitle {
     text-align: center;
-    padding: unset;
+    padding: 1.2rem 0;
   }
   .technology__container--left p {
     padding: 2rem 2rem 2rem 2rem;
