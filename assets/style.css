@@ -989,6 +989,9 @@ html {
   .faq--title {
     padding: 3rem 0 3rem;
   }
+  .support__container .imgsubtext{
+    padding: 3rem 0;
+  }
 
 }
 @media screen and (max-width: 500px) {
