@@ -1000,6 +1000,9 @@ html {
   .hero__container .absolute{
     display: none;
   }
+  .hero__imgcontainer{
+    justify-content: center;
+  }
 
 }
 @media screen and (max-width: 500px) {
@@ -1011,7 +1014,7 @@ html {
   }
   .hero{
     background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_Mobile_01.png?v=1638137905);
-    background-position-y:-100px ;
+    background-position-y:-100px;
   }
   .hero__txt{
     padding-top: 24rem;
