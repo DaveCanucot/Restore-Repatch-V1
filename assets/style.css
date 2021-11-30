@@ -427,6 +427,7 @@ table {
 .faq--footer {
   text-align: center;
   font-size: 1.25rem;
+  padding: 0 2rem;
 }
 
 .testimonial {
@@ -750,7 +751,7 @@ header .shopnowbtn p {
 
 @media screen and (max-width: 768px) {
   .footer__container--middle p {
-    padding-left: 1.5rem;
+    padding: 1.35rem 0 1.2rem 1.5rem;
   }
 }
 
@@ -798,7 +799,7 @@ header .shopnowbtn p {
 .footer__container--right span {
   color: #fff;
   font-size: 0.8rem;
-  padding-bottom: 1.3rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -836,7 +837,7 @@ header .shopnowbtn p {
             align-items: center;
   }
   .footer__container--right .copyright{
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
 }
 
