@@ -1019,7 +1019,7 @@ html {
     padding: 0 1rem;
   }
   .testimonial__container--item .message, .testimonial__container--item .name {
-    padding: 0 1rem;
+    padding: 1rem;
   }
 }
 
