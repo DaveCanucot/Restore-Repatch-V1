@@ -823,10 +823,10 @@ header .shopnowbtn p {
 .footer__container--right .copyright{
   color: #fff;
   margin-top: 5rem;
+  font-size: 0.85rem;
 }
 .footer__container--right .copyright a {
   color: #fff;
-  font-size: 0.85rem;
 }
 
 
