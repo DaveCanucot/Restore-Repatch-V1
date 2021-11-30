@@ -993,6 +993,10 @@ html {
     padding: 3rem 0;
   }
 
+  .hero{
+    background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_768x1024_22d89d22-3a07-493a-925c-9a8637d8727d.png?v=1638315448);
+  }
+
 }
 @media screen and (max-width: 500px) {
   .testimonial--happystarcustomer .stars {
