@@ -624,7 +624,6 @@ header #menu-toggle1:checked + .nav-menu {
 
 header .nav-menu-links {
   padding: 1rem 0;
-  border-bottom: 1px solid;
   width: 100%;
   text-align: center;
   font-size: 1rem;
