@@ -1,4 +1,44 @@
 
+ 
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="content-wrapper">
+                <div class="left">
+                    <h2 class="left--title">Life is Full of Tough Choices</h2>
+                    <img src="https://cdn.shopify.com/s/files/1/0555/5145/9468/files/1508658012170.png?v=1638404626"
+                        alt="">
+                    <h2 class="left--subtitle">This isn't one of those!</h2>
+                    <div class="imgcontainer">
+                        <img src="https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_Combo_Purple.png?v=1638419732"
+                            width="100%" height="auto" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <h2 class="right--title">Get Your Free Patch Today!</h2>
+                    <p>
+                        We are so confident our patch will work for you, we're willing to give you your first week on
+                        us! Simply provide us the following information and we will send them directly to you to try.
+                    </p>
+                    <form action="" class="form-column">
+                        <input type="text" name="name" id="name" placeholder="Name:" class="form-input">
+                        <input type="text" name="address" id="address" placeholder="Address:" class="form-input">
+                        <input type="email" name="email" id="email" placeholder="Email:" class="form-input">
+                        <select name="selectpatch" id="selectpatch" class="form-input">
+                            <option value="">Select Patch</option>
+                        </select>
+                        <div class="theno">
+                            <h3 class="obligation">No Obligation</h3>
+                            <h3 class="risk">No Risk</h3>
+                            <h3 class="brainer">No Brainer</h3>
+                        </div>
+                        <input type="submit" value="GET MY FREE PATCH" class="modal-submitbtn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
        <section class="hero">
             <div class="hero__container ">
                 {{ 'absolute.png' | asset_url | img_tag: 'The Soap Store', 'absolute'}}
@@ -21,7 +61,6 @@
                     </h3>
             </div>
         </section>
-
         <section class="scienceandtech" id="scienceandtech">
             <div class="scienceandtech__container flex">
                 <div class="scienceandtech__container--left" data-aos="fade-right" >
@@ -298,3 +337,4 @@
                 </div>
             </div>
         </section>
+
