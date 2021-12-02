@@ -1247,6 +1247,8 @@ html {
   color: #083d5d;
   text-align: center;
   margin: 1rem 0 0;
+  font-weight: 900;
+  font-family: 'MetroBold',sans-serif;
 }
 
 .imgcontainer {
