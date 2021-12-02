@@ -1224,6 +1224,7 @@ html {
 .right--title {
   color: #083d5d;
   font-size: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .left--title {
@@ -1231,6 +1232,7 @@ html {
   color: #083d5d;
   text-align: center;
   padding: 0 4rem;
+  padding-bottom: 1.5rem;
 }
 
 .left--subtitle {
@@ -1255,6 +1257,10 @@ html {
   align-self: center;
   color: #fff;
   font-weight: 700;
+}
+
+.right p {
+  padding-bottom: 1.5rem;
 }
 
 /*////////////// END OF MODAL ////////////////// */
