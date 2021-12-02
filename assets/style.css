@@ -1225,6 +1225,8 @@ html {
   color: #083d5d;
   font-size: 2rem;
   padding-bottom: 1.5rem;
+  font-family: 'MetroBold',sans-serif;
+  font-weight: 900;
 }
 
 .left--title {
@@ -1233,6 +1235,8 @@ html {
   text-align: center;
   padding: 0 4rem;
   padding-bottom: 1.5rem;
+  font-family: 'MetroBold',sans-serif;
+  font-weight: 900;
 }
 
 .left--subtitle {
