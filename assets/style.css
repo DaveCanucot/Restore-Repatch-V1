@@ -917,152 +917,6 @@ html {
   display: none;
 }
 
-@media screen and (max-width:1366px){
-  .technology__container--left{
-    padding: 1rem 0;
-  }
-  .technology__container--left p{
-    padding: 0 2rem 2rem;
-  }
-  .technology__container--left .title {
-    padding: 2rem 0 2rem 2rem;
-  }
-  .technology__container--left .subtitle{
-    padding: 2rem 0 2rem 2rem;
-
-  }
-}
-@media screen and (max-width: 768px) {
-  .technology__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-  }
-  .technology__container--left {
-    width: 100%;
-  }
-  .technology__container--left .title {
-    text-align: center;
-    padding: unset;
-  }
-  .technology__container--left .subtitle {
-    text-align: center;
-    padding: 1.2rem 0;
-  }
-  .technology__container--left p {
-    padding: 2rem 2rem 2rem 2rem;
-  }
-  .technology__container--right {
-    width: 100%;
-  }
-  .faq__container .accordion {
-    font-size: 1rem;
-  }
-  .hero__txt, .hero__txtsub, .hero__imgsubtxt{
-    text-align: left;
-  }
-  .hero__imgsubtxt{
-    padding-top: 1rem;
-  }
-  h2{
-    font-size: 2.125rem !important;
-  }
-  p{
-    font-size: 1rem !important;
-  }
-  h3{
-    font-size: 1.5rem !important;
-  }
-
-  .technology__container--left{
-    padding: 2rem 0;
-  }
-  .faq--title {
-    padding: 3rem 0 3rem;
-  }
-  .support__container .imgsubtext{
-    padding: 3rem 0;
-  }
-
-  .hero{
-    background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_768x1024_1.png?v=1638316393);
-  }
-  .hero__container .absolute{
-    display: none;
-  }
-
-
-}
-@media screen and (max-width: 500px) {
-  .testimonial--happystarcustomer .stars {
-    width: 300px;
-  }
-  .hero__container .absolute{
-    display: none;
-  }
-  .hero{
-    background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_Mobile_01.png?v=1638137905);
-    background-position-y:-100px;
-  }
-  .hero__txt{
-    padding-top: 24rem;
-  }
-  .footer__container{
-    padding: 2rem 20px;
-  }
-  .hero__imgcontainer{
-    justify-content: center;
-  }
-  .hero__txt, .hero__txtsub, .hero__imgsubtxt{
-    text-align: center;
-  }
-  .mobilebr{
-    display: block;
-  }
-}
-
-@media screen and (max-width:458px) {
-  .footer__container--right .form-container .inputemail {
-    width: 70%;
-  }
-  .healing--text{
-    font-size: 1.5rem;
-  }
-  .hero__imgcontainer .crcl {
-    padding: 0 1rem;
-  }
-  .testimonial__container--item .message, .testimonial__container--item .name {
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width:400px){
-  .healing--text{
-    font-size: 1.2rem;
-  }
-  .testimonial__container--item .message {
-    padding: 1rem;
-  }
-  .testimonial__container--item .name {
-    padding: 0 1rem;
-  }
-  .footer__container--right .form-container .inputemail {
-    width: 66.9%;
-  }
-  .testimonial{
-    padding-bottom: 5rem;
-  }
-  .hero__txt{
-    padding-top: 16rem;
-  }
-  .hero__imgcontainer .crcl {
-    padding: 0 1rem;
-  }
-}
 /*///////////////////////////  MODAL ///////////////////////////// */
 
 /* The Modal (background) */
@@ -1272,3 +1126,158 @@ html {
 }
 
 /*////////////// END OF MODAL ////////////////// */
+
+@media screen and (max-width:1366px){
+  .technology__container--left{
+    padding: 1rem 0;
+  }
+  .technology__container--left p{
+    padding: 0 2rem 2rem;
+  }
+  .technology__container--left .title {
+    padding: 2rem 0 2rem 2rem;
+  }
+  .technology__container--left .subtitle{
+    padding: 2rem 0 2rem 2rem;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .technology__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .technology__container--left {
+    width: 100%;
+  }
+  .technology__container--left .title {
+    text-align: center;
+    padding: unset;
+  }
+  .technology__container--left .subtitle {
+    text-align: center;
+    padding: 1.2rem 0;
+  }
+  .technology__container--left p {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .technology__container--right {
+    width: 100%;
+  }
+  .faq__container .accordion {
+    font-size: 1rem;
+  }
+  .hero__txt, .hero__txtsub, .hero__imgsubtxt{
+    text-align: left;
+  }
+  .hero__imgsubtxt{
+    padding-top: 1rem;
+  }
+  h2{
+    font-size: 2.125rem !important;
+  }
+  p{
+    font-size: 1rem !important;
+  }
+  h3{
+    font-size: 1.5rem !important;
+  }
+
+  .technology__container--left{
+    padding: 2rem 0;
+  }
+  .faq--title {
+    padding: 3rem 0 3rem;
+  }
+  .support__container .imgsubtext{
+    padding: 3rem 0;
+  }
+
+  .hero{
+    background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_768x1024_1.png?v=1638316393);
+  }
+  .hero__container .absolute{
+    display: none;
+  }
+  .content-wrapper{
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .testimonial--happystarcustomer .stars {
+    width: 300px;
+  }
+  .hero__container .absolute{
+    display: none;
+  }
+  .hero{
+    background-image: url(https://cdn.shopify.com/s/files/1/0555/5145/9468/files/Restore_Patch_Mobile_01.png?v=1638137905);
+    background-position-y:-100px;
+  }
+  .hero__txt{
+    padding-top: 24rem;
+  }
+  .footer__container{
+    padding: 2rem 20px;
+  }
+  .hero__imgcontainer{
+    justify-content: center;
+  }
+  .hero__txt, .hero__txtsub, .hero__imgsubtxt{
+    text-align: center;
+  }
+  .mobilebr{
+    display: block;
+  }
+}
+
+@media screen and (max-width:458px) {
+  .footer__container--right .form-container .inputemail {
+    width: 70%;
+  }
+  .healing--text{
+    font-size: 1.5rem;
+  }
+  .hero__imgcontainer .crcl {
+    padding: 0 1rem;
+  }
+  .testimonial__container--item .message, .testimonial__container--item .name {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width:400px){
+  .healing--text{
+    font-size: 1.2rem;
+  }
+  .testimonial__container--item .message {
+    padding: 1rem;
+  }
+  .testimonial__container--item .name {
+    padding: 0 1rem;
+  }
+  .footer__container--right .form-container .inputemail {
+    width: 66.9%;
+  }
+  .testimonial{
+    padding-bottom: 5rem;
+  }
+  .hero__txt{
+    padding-top: 16rem;
+  }
+  .hero__imgcontainer .crcl {
+    padding: 0 1rem;
+  }
+}
