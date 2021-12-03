@@ -1124,6 +1124,9 @@ html {
 .right p {
   padding-bottom: 1.5rem;
 }
+.left-modal-image{
+  width: 100%;
+}
 
 /*////////////// END OF MODAL ////////////////// */
 
