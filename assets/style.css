@@ -1212,9 +1212,11 @@ html {
   }
   .left{
     width: 100%;
+    padding: unset;
   }
   .right{
     width: 100%;
+    padding: unset;
   }
 
 }
