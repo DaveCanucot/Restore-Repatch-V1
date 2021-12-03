@@ -693,8 +693,8 @@ header .shopnowbtn {
 }
 
 header .shopnowbtn p {
-  color: #fff;
-  font-weight: 600;
+  font-weight: 900;
+  font-family: 'MetroBold',sans-serif;
 }
 
 @media screen and (max-width: 1050px) {
