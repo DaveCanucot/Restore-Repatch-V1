@@ -104,6 +104,7 @@ section {
 
 body {
   line-height: 1;
+  position: relative;
 }
 
 ol,
@@ -1007,7 +1008,7 @@ html {
 .modal {
   display: none;
   /* Hidden by default */
-  position: fixed;
+  position: absolute;
   /* Stay in place */
   z-index: 99999;
   /* Sit on top */
@@ -1141,7 +1142,8 @@ html {
   border: unset;
   background-color: rgba(73, 81, 216, 0.21);
   border-radius: 3px;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  padding: 5px;
 }
 
 .theno {
@@ -1205,6 +1207,7 @@ html {
 
 .right p {
   padding-bottom: 1.5rem;
+  line-height: 1.5;
 }
 .left-modal-image {
   width: 100%;
@@ -1213,6 +1216,9 @@ html {
 /*////////////// END OF MODAL ////////////////// */
 strong {
   font-weight: 700;
+}
+.space {
+  display: none;
 }
 
 .waterhypocontainer {
@@ -1314,6 +1320,9 @@ strong {
   .waterhypocontainer {
     padding-left: unset;
     justify-content: center;
+  }
+  .space {
+    display: block;
   }
 }
 @media screen and (max-width: 500px) {
