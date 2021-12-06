@@ -312,6 +312,9 @@ table {
   font-size: 2rem;
   padding: 2rem 0;
 }
+.healing--mobile {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   .healing--imgcontainer {
@@ -1323,6 +1326,18 @@ strong {
   }
   .space {
     display: block;
+  }
+  .healing--mobile {
+    display: block;
+    text-align: center;
+    text-align: center;
+    font-family: "MetroBold", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+  .healing--text {
+    display: none;
   }
 }
 @media screen and (max-width: 500px) {
