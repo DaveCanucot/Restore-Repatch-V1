@@ -1218,6 +1218,9 @@ strong {
 .waterhypocontainer {
   padding-left: 10rem;
 }
+.hypoallergenic {
+  padding-left: 2.5rem;
+}
 
 @media screen and (max-width: 1366px) {
   .technology__container--left {
