@@ -1012,7 +1012,7 @@ html {
   /* Stay in place */
   z-index: 99999;
   /* Sit on top */
-  padding-top: 20px;
+  padding-top: 80px;
   /* Location of the box */
   left: 0;
   top: 0;
@@ -1049,7 +1049,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 7%;
+  top: 0;
   left: 0;
   right: 0;
   transform: translate(-50% -50%);
