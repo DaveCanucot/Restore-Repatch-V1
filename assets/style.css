@@ -1227,7 +1227,8 @@ strong {
 .waterhypocontainer {
   padding-left: 10rem;
 }
-.hypoallergenic {
+.hypoallergenic,
+discrete {
   padding-left: 2.5rem;
 }
 
@@ -1323,9 +1324,6 @@ strong {
   .waterhypocontainer {
     padding-left: unset;
     justify-content: center;
-  }
-  .space {
-    display: block;
   }
   .healing--mobile {
     display: block;
