@@ -27,8 +27,8 @@
 <body>
   {{ content_for_layout }}
 {% section 'footer' %}
-    {{ 'jquery-migrate.js' | asset_url | stylesheet_tag }} 
-    {{ 'jquery-migrate.min.js' | asset_url | stylesheet_tag }} 
+    {{ 'jquery-migrate.js' | global_asset_url | script_tag }} 
+    {{ 'jquery-migrate.min.js' | global_asset_url | script_tag }} 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <script>
         $(document).ready(function(){
