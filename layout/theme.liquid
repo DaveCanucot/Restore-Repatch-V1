@@ -27,9 +27,9 @@
 <body>
   {{ content_for_layout }}
 {% section 'footer' %}
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    {{ 'jquery-migrate.js' | asset_url | stylesheet_tag }} 
+    {{ 'jquery-migrate.min.js' | asset_url | stylesheet_tag }} 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <script>
         $(document).ready(function(){
         $('.my-slider').slick({
@@ -71,7 +71,8 @@
               } 
           });
           }
-                  // Get the modal
+
+        // Get the modal
         var modal = document.getElementById("myModal");
 
         // Get the button that opens the modal
