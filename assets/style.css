@@ -718,6 +718,7 @@ header .shopnowbtn1 {
   border-radius: 25px;
   width: 100px;
   margin: 1rem 0;
+  cursor: pointer;
 }
 
 header .shopnowbtn1 p {
@@ -1322,7 +1323,7 @@ strong {
     margin: unset;
   }
   .waterhypocontainer {
-    padding-left: unset;
+    padding: 0 2rem;
     justify-content: center;
   }
   .healing--mobile {
