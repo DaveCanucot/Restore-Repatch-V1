@@ -774,6 +774,7 @@ header .shopnowbtn {
   background-color: rgba(73, 81, 216, 0.21);
   padding: 1rem 3rem;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 header .shopnowbtn p {
