@@ -24,7 +24,7 @@
     {{ 'style.css' | asset_url | stylesheet_tag }} 
 </head>
 {%section 'header' %}
-<body>
+<body id="bod">
   {{ content_for_layout }}
 {% section 'footer' %}
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -78,7 +78,7 @@
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
         var btn2 = document.getElementById("myBtn2");
-        var bod = document.getElementsByTagName("BODY")[0];
+        var bod = document.getElementById("bod");
 
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
@@ -86,6 +86,7 @@
         // When the user clicks the button, open the modal 
         btn.onclick = function () {
             modal.style.display = "block";
+            bod.style.overflow= "hidden";
         }
         btn2.onclick = function () {
             modal.style.display = "block";
@@ -100,6 +101,7 @@
         window.onclick = function (event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+                bod.style.overflow="scroll";
             }
         }
       </script>
