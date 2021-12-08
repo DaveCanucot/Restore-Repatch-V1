@@ -1053,8 +1053,8 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  top: 0;
+  position: fixed;
+  top: 7%;
   left: 0;
   right: 0;
   transform: translate(-50% -50%);
